@@ -1,0 +1,115 @@
+/*CSS reset*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Tahoma', sans-serif;
+}
+
+nav{
+	padding:8px;
+	margin-bottom:32px;
+	text-align:center;
+	background-color:gray;
+}
+
+#landing{
+	padding-left:300px;
+	padding-right:300px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+.header{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#apply{
+	color: white;
+	background-color: slategrey;
+	padding: 8px;
+	font-size: 16px;
+	margin-top: 16px;
+	border: none;
+}
+
+#succeed-info{
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.block{
+	background-color: skyblue;
+	border: 2px solid black;
+	height: 200 px;
+	width: 200px;
+}
+
+.card{
+	text-align: center;
+/*this allows the divs to appear beside each other*/
+	display: inline-block;
+/*This aligns the elements with the tallest element in line	*/
+/*used with inline block "value"*/
+	vertical-align: top;
+	width: 300px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+footer{
+	padding: 16px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*span{
+	background-color: gray;
+	border: 2px solid black;
+/*height and width will be ignored in span elements	*/
+	height: 200 px;
+	width: 200px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#box{
+	height:150px;
+	width:150px;
+	padding:50px;
+	border: 1px solid black;
+	background-color:orange;
+}
