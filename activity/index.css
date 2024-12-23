@@ -1,0 +1,106 @@
+/* Universal CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #2a9d8f;
+    padding: 8px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Landing Section Styles */
+#landing {
+    padding: 50px;
+    text-align: center;
+}
+#landing h1 {
+    margin: 5px 0;
+    font-size: 2.5rem;
+    color: #264653;
+}
+#landing h2 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: #2a9d8f;
+}
+#landing h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #e76f51;
+}
+#landing form {
+    margin: 5px 0;
+}
+#landing input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#landing button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#landing button:hover {
+    background-color: #d04a3c;
+}
+
+/* Movies Section Styles */
+#movies {
+    padding: 50px;
+    text-align: center;
+}
+#movies h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #264653;
+}
+.card {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.card-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card p {
+    margin-top: 10px;
+    color: #264653;
+    font-size: 1.1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
